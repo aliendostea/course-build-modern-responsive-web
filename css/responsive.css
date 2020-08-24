@@ -1,0 +1,214 @@
+/* ------
+
+         bootstrap 3 media queries
+
+                                  ------ */
+/* ------  Large divices - desktops & laptops ------ */
+@media (min-width: 1200px){
+/* - OK - */
+#home-heading h3{ /* - borrar - */
+  color: blue;
+  }
+}
+
+/* ------  medium divices - tablets & medium desktops ------ */
+@media (min-width: 992px) and (max-width: 1199px) {
+/* - OK - */
+#home-heading h3{ /* - borrar - */
+  color: green;
+  }
+
+/* - header navbar - */
+.navbar{
+  background: rgba(0, 0, 0, 0.8);
+  padding: 0;
+  }
+
+.navbar-nav{
+  width: 100%;
+  }
+
+.header-nav-wrapper{
+  padding: 0;
+  }
+
+}
+
+
+/* ------  small divices - tablets & small desktops ------ */
+@media (min-width: 768px) and (max-width: 991px) {
+
+/* - header navbar - */
+.navbar{
+    background: rgba(0, 0, 0, 0.8);
+    padding: 0;
+    }
+
+    .navbar-nav{
+      width: 100%;
+      }
+
+.header-nav-wrapper{
+    padding: 0;
+    }
+
+/* - about section - */
+#about-bg-diagonal{
+  border-left: 0;
+  border-top: 0;
+  width: 100%;
+  height: 350px;
+}
+
+#about-content-box{
+  width: 100%;
+  height: 350px;
+}
+
+
+#home-heading h3{ /* ------------------------ borrar - */
+  color: yellow;
+}
+
+/* - pricing section - */
+#pricing .pricing-box{
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+/* - stats section - */
+.stats-item{
+  padding: 10px 0;
+}
+
+/* - footer - */
+#footer-coopyrights{
+  text-align: center;
+ }
+}
+
+/* ------  extra small divices - phones & tables ------ */
+@media (max-width: 767px) {
+  #home-heading h3{ /* - borrar - */
+    color: purple;
+  }
+
+  /* - header navbar - */
+  .navbar{
+      background: rgba(0, 0, 0, 0.8);
+      padding: 0;
+      }
+
+      .navbar-nav{
+        width: 100%;
+        }
+
+  .header-nav-wrapper{
+      padding: 0;
+      }
+
+  /* - home section md767 - */
+ #home-heading h3{
+   font-size: 28px
+ }
+ /* - buttons md767 - */
+ .btn-general{
+    padding: 6px 22px 6px 22px;
+    font-size: 14px;
+ }
+ /* - about section md767 - */
+ #about-bg-diagonal{
+   border-left: 0;
+   border-top: 0;
+   width: 100%;
+   height: 350px;
+ }
+ #about-content-box{
+   width: 100%;
+   height: 350px;
+ }
+ /* - our work section md767 - */
+ .img-wrapper img {
+   min-width: 100%;
+ }
+  /* - testimonial section md767 - */
+  .testimonial blockquote{
+    padding: 6px 50px;
+  }
+  .testimonial blockquote:before{
+    left: 20px;
+  }
+  .testimonial blockquote:after{
+    right: 20px;
+  }
+  .testimonial blockquote p{
+    font-size: 14px;
+  }
+
+  /* - pricing section md767 - */
+  #pricing .pricing-box{
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+
+  /* - stats section md767- */
+  .stats-item{
+    padding: 10px 0;
+  }
+
+  /* - footer - */
+  #footer-coopyrights{
+    text-align: center;
+   }
+ }
+
+/* ------  extra small divices mw480 - phones ------ */
+@media (max-width: 480px) {
+  #home-heading h3{ /* - borrar - */
+    color: gray;
+  }
+  /* - pricing section mw480 - */
+  #pricing .pricing-box{
+    margin:0;
+    margin-top: 35px;
+}
+
+/* ------  extra small divices - phones ------ */
+@media (max-width: 320px) { /* - borrar - */
+  #home-heading h3{
+    color: pink;
+  }
+
+/* - service - */
+   .service-item-icon{
+     width: 58px;
+     height: 58px;
+     padding: 7px;
+   }
+
+   .service-item-icon h3{
+    font-size: 17px;
+   }
+
+/* - about - */
+   #about-content-box{
+      margin-top: 40px;
+   }
+
+/* - testimonials - */
+.testimonial img {
+  max-width: 80px;
+}
+.testimonial blockquote{
+  padding: 6px 30px;
+}
+.testimonial blockquote:before{
+  left: 10px;
+}
+.testimonial blockquote:after{
+  right: 35px;
+}
+.testimonial blockquote p{
+  font-size: 12px;
+ }
+}
