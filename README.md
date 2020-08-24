@@ -4,11 +4,15 @@
 
 ## What I learn in this course
 
-⚡️ Web Development process from Start to Finish project
-⚡️ HTML5, CSS3, JQuery and Bootstrap (+BS 4) Framework
-⚡️ CSS3 Media Queries & perfect for responsive design
+⚡️ Web Development process from Start to Finish project.
+
+⚡️ HTML5, CSS3, JQuery and Bootstrap (+BS 4) Framework.
+
+⚡️ CSS3 Media Queries & perfect for responsive design.
+
 ⚡️ How to use JQuery libraries (counterup, easing, magnific-popup, owl-carousel, wow).
-⚡️ Scroll behavior with JQuery
+
+⚡️ Scroll behavior with JQuery.
 
 ---
 
